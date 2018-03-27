@@ -1,0 +1,5 @@
+package hh.palvelinohjelmointi.marketplace.domain;
+
+public interface UserRepository {
+
+}

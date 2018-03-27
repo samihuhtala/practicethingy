@@ -1,0 +1,7 @@
+@CHARSET "ISO-8859-1";
+<style>
+html {
+	background : url("src/main/resources/static/css/images.png")
+	
+}
+</style>

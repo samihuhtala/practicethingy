@@ -1,0 +1,54 @@
+package hh.palvelinohjelmointi.marketplace;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+import hh.palvelinohjelmointi.marketplace.domain.Product;
+import hh.palvelinohjelmointi.marketplace.domain.ProductRepository;
+import hh.palvelinohjelmointi.marketplace.domain.Table;
+import hh.palvelinohjelmointi.marketplace.domain.TableRepository;
+import hh.palvelinohjelmointi.marketplace.domain.User;
+import hh.palvelinohjelmointi.marketplace.domain.UserRepository;
+
+
+@SpringBootApplication
+public class MarketplaceApplication {
+private static final Logger log = LoggerFactory.getLogger(MarketplaceApplication.class);
+	public static void main(String[] args) {
+		SpringApplication.run(MarketplaceApplication.class, args);
+	}
+	
+	@Bean
+	public CommandLineRunner MarketplaceDemo(ProductRepository prepo,UserRepository urepo, TableRepository trepo) {
+		return (args) ->{
+			log.info("Save couple products");
+		
+			Product product1 = new Product("chair", 12.45,"furniture");
+			Product product2 = new Product("riders of the lost ark", 20.50,"book");
+				prepo.save(product1);
+				prepo.save(product2);
+				
+				Table table1 = new Table("salesplace");
+				Table table2 = new Table("marketplace");
+				
+				trepo.save(table1);
+				trepo.save(table2);
+				
+				product1.setTable(table1);
+				product2.setTable(table2);
+				//user1 psw kissa1
+				//user2 psw kissa2
+				//user3 psw koira
+				User user1 = new User("user1", "$2a$04$eFmZjG0ZDr2w88SS5pUo3.Cl.wYS0DbUA6CZQcGYGJHPGEdNXI7xy", "user1@email.com", "USER", table1);
+				User user2 = new User("user2", "$2y$10$JSfBu0XNzdKzSMaWYGk7hOu25OOfsGf9fqLw1O2WtiZwQtdGwCv0S","user2@email","USER", table2);
+				User user3 = new User("admin", "$2a$04$ASLbEOoFEFPSZY91ESWte.p28OVdQesWREu2xA84jSn9wZFGe49nm", "admin@email.com", "ADMIN", null);
+				urepo.save(user1);
+				urepo.save(user2);
+				urepo.save(user3);
+		};
+	}
+}

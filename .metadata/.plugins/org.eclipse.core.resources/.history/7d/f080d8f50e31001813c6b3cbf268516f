@@ -1,0 +1,5 @@
+package hh.palvelinohjelmointi.marketplace.webcontrol;
+
+public class ProductController {
+
+}

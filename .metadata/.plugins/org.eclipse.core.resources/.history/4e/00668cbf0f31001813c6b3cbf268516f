@@ -1,0 +1,36 @@
+package hh.palvelinohjelmointi.marketplace.webcontrol;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import hh.palvelinohjelmointi.marketplace.domain.ProductRepository;
+import hh.palvelinohjelmointi.marketplace.domain.TableRepository;
+
+@Controller
+public class ProductController {
+
+@Autowired
+private ProductRepository prepo;
+@Autowired
+private TableRepository trepo;
+
+@RequestMapping(value="/login")
+public String login() {
+	return "login";
+}
+
+@RequestMapping(value="/productlist")
+public String productlist(Model model){
+	model.addAttribute("products", prepo.findAll());
+	return "productlist";
+}
+@RequestMapping(value ="/tablelist")
+private String tablelist(Model model){
+	model.addAttribute("tables", trepo.findAll());
+	return "tablelist";
+}
+
+
+}

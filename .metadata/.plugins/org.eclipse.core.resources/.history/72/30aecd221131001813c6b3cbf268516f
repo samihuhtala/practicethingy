@@ -1,0 +1,33 @@
+package hh.palvelinohjelmointi.marketplace;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+import hh.palvelinohjelmointi.marketplace.domain.Product;
+import hh.palvelinohjelmointi.marketplace.domain.ProductRepository;
+import hh.palvelinohjelmointi.marketplace.domain.Category;
+import hh.palvelinohjelmointi.marketplace.domain.CategoryRepository;
+import hh.palvelinohjelmointi.marketplace.domain.User;
+import hh.palvelinohjelmointi.marketplace.domain.UserRepository;
+
+
+@SpringBootApplication
+public class MarketplaceApplication {
+private static final Logger log = LoggerFactory.getLogger(MarketplaceApplication.class);
+	public static void main(String[] args) {
+		SpringApplication.run(MarketplaceApplication.class, args);
+	}
+	
+	@Bean
+	public CommandLineRunner MarketplaceDemo(ProductRepository prepo,UserRepository urepo, CategoryRepository trepo) {
+		return (args) ->{
+			log.info("Save couple products");
+		
+			
+		};
+	}
+}
