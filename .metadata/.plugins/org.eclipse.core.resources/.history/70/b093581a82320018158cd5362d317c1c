@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css" th:href="@{css/bootstrap.min.css}" />
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css" th:href="@{css/bootstrap.min.css}" />
 <title>TodoList</title>
 </head>
 <body>
-<h1>Edit object</h1>
+<h1>Add Object</h1>
 <div class ="col-md-4 col-md-offset-4">
-<form th:object="${object}" th:action="@{../save}" action="#" method ="post">
+<form th:object="${object}" th:action="@{save}" action="#" method ="post">
 <label for ="name">Name</label>
-<input type= "hidden" id="id" th:field="*{id}" class="form-control"/>
 <input type="text" id ="name" th:field="*{name}" class="form-control"/>
 <p th:if="${#fields.hasErrors('name')}" th:errors ="*{name}">Name error</p>
 <div style="clear: both; display: block; height: 10px;"></div>
 <label for ="status">Status</label>
 <input type="text" id="status" th:field="*{status}" class="form-control"/>
-<p th:if="${#fields.hasErrors('status')}" th:errors ="*{status}">Name error</p>
+<p th:if="${#fields.hasErrors('status')}" th:errors ="*{status}">Status error</p>
 <div style="clear: both; display: block; height: 10px;"></div>
 <label for ="catlist">Category</label>
 <select id ="catlist" th:field="*{Category}" class="form-control">

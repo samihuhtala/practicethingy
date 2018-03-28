@@ -12,11 +12,9 @@
 <label for ="name">Name</label>
 <input type= "hidden" id="id" th:field="*{id}" class="form-control"/>
 <input type="text" id ="name" th:field="*{name}" class="form-control"/>
-<p th:if="${#fields.hasErrors('name')}" th:errors ="*{name}">Name error</p>
 <div style="clear: both; display: block; height: 10px;"></div>
 <label for ="status">Status</label>
 <input type="text" id="status" th:field="*{status}" class="form-control"/>
-<p th:if="${#fields.hasErrors('status')}" th:errors ="*{status}">Name error</p>
 <div style="clear: both; display: block; height: 10px;"></div>
 <label for ="catlist">Category</label>
 <select id ="catlist" th:field="*{Category}" class="form-control">
