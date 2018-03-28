@@ -30,23 +30,11 @@ public String login() {
 }
 
 @RequestMapping(value="/objectlist")
-public String todolist(Model model){
+public String marketplace(Model model){
 	model.addAttribute("objects", orepo.findAll());
 	return "objectlist";
 }
 
-@RequestMapping(value="/nouserview")
-public String nouserlist(Model model){
-	model.addAttribute("objects", orepo.findAll());
-	return "nouserview";
-	
-}
-
-@RequestMapping(value="/")
-public String nouserlisthome(Model model){
-	model.addAttribute("objects", orepo.findAll());
-	return "nouserview";
-}
 @RequestMapping(value="/objects", method = RequestMethod.GET)
 public @ResponseBody List <Object> objectlistrest(){
 	return (List<Object>) orepo.findAll();

@@ -35,17 +35,11 @@ public String todolist(Model model){
 	return "objectlist";
 }
 
-@RequestMapping(value="/nouserview")
+@RequestMapping(value="/objectlist")
 public String nouserlist(Model model){
 	model.addAttribute("objects", orepo.findAll());
 	return "nouserview";
 	
-}
-
-@RequestMapping(value="/")
-public String nouserlisthome(Model model){
-	model.addAttribute("objects", orepo.findAll());
-	return "nouserview";
 }
 @RequestMapping(value="/objects", method = RequestMethod.GET)
 public @ResponseBody List <Object> objectlistrest(){

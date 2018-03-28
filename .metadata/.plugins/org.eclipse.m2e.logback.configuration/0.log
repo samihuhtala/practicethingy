@@ -1462,3 +1462,159 @@ org.eclipse.core.runtime.CoreException: Launch configuration MarketplaceReposito
 2018-03-28 13:06:59,560 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-03-28 13:06:59,561 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2018-03-28 13:06:59,563 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 13:06:59,579 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:06:59,580 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 13:26:30,961 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:26:30,966 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 13:26:30,973 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2018-03-28 13:26:30,981 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:26:30,981 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 13:27:41,277 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:27:41,281 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 13:27:41,287 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2018-03-28 13:27:41,293 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:27:41,293 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 13:29:14,260 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:29:14,265 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 13:29:14,274 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2018-03-28 13:29:14,286 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:29:14,286 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 13:35:09,752 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:35:09,756 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 13:35:09,761 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2018-03-28 13:35:09,766 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:35:09,767 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 13:37:43,919 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:37:43,926 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 13:37:43,934 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2018-03-28 13:37:43,942 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:37:43,943 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 13:53:12,618 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:53:12,624 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 13:53:12,631 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2018-03-28 13:53:12,638 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:53:12,639 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 13:53:38,606 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:53:38,610 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 13:53:38,620 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2018-03-28 13:53:38,627 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:53:38,627 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 13:55:30,617 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:55:30,622 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 13:55:30,630 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2018-03-28 13:55:30,638 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:55:30,639 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 13:56:28,353 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:56:28,358 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 13:56:28,364 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2018-03-28 13:56:28,370 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:56:28,371 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 13:57:29,098 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:57:29,099 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-28 13:57:29,100 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 13:57:29,110 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 13:57:29,111 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:00:27,018 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:00:27,019 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-28 14:00:27,020 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:00:27,035 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:00:27,035 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:01:01,852 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:01:01,857 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:01:01,865 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2018-03-28 14:01:01,873 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:01:01,874 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:01:55,693 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:01:55,700 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:01:55,707 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2018-03-28 14:01:55,717 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:01:55,718 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:03:01,877 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:03:01,881 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:03:01,887 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2018-03-28 14:03:01,892 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:03:01,892 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:04:20,160 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:04:20,164 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:04:20,171 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2018-03-28 14:04:20,179 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:04:20,179 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:07:33,721 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:07:33,725 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:07:33,732 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2018-03-28 14:07:33,739 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:07:33,739 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:08:07,570 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:08:07,575 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:08:07,581 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2018-03-28 14:08:07,587 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:08:07,587 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:08:40,634 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:08:40,637 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:08:40,643 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2018-03-28 14:08:40,648 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:08:40,649 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:09:02,630 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:09:02,640 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:09:02,647 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2018-03-28 14:09:02,654 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:09:02,654 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:15:57,232 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:15:57,237 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:15:57,243 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2018-03-28 14:15:57,248 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:15:57,249 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:16:18,116 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:16:18,120 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:16:18,126 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2018-03-28 14:16:18,132 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:16:18,133 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:17:51,383 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:17:51,387 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:17:51,393 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2018-03-28 14:17:51,398 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:17:51,398 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:18:22,863 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:18:22,866 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:18:22,872 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2018-03-28 14:18:22,879 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:18:22,879 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:19:08,953 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:19:08,958 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:19:08,965 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2018-03-28 14:19:08,972 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:19:08,972 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:20:06,032 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:20:06,037 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:20:06,042 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2018-03-28 14:20:06,048 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:20:06,048 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:21:06,629 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:21:06,634 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:21:06,641 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2018-03-28 14:21:06,648 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:21:06,649 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:22:23,673 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:22:23,677 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:22:23,682 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2018-03-28 14:22:23,688 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:22:23,689 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:24:18,356 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:24:18,360 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:24:18,367 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2018-03-28 14:24:18,373 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:24:18,373 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:28:51,416 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:28:51,417 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-28 14:28:51,418 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:28:51,431 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:28:51,431 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:29:54,887 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:29:54,888 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-28 14:29:54,889 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:29:54,900 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:29:54,901 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipse filut\palvelinohjelmointi\harjoitustyo\todolist\src\test\resources
+2018-03-28 14:30:09,168 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-03-28 14:30:09,169 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-03-28 14:30:09,171 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-28 14:30:09,181 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

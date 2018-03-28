@@ -29,7 +29,7 @@ public String login() {
 	return "login";
 }
 
-@RequestMapping(value="/objectlist")
+@RequestMapping(value="/objectlist, /")
 public String todolist(Model model){
 	model.addAttribute("objects", orepo.findAll());
 	return "objectlist";
@@ -40,12 +40,6 @@ public String nouserlist(Model model){
 	model.addAttribute("objects", orepo.findAll());
 	return "nouserview";
 	
-}
-
-@RequestMapping(value="/")
-public String nouserlisthome(Model model){
-	model.addAttribute("objects", orepo.findAll());
-	return "nouserview";
 }
 @RequestMapping(value="/objects", method = RequestMethod.GET)
 public @ResponseBody List <Object> objectlistrest(){

@@ -41,12 +41,6 @@ public String nouserlist(Model model){
 	return "nouserview";
 	
 }
-
-@RequestMapping(value="/")
-public String nouserlisthome(Model model){
-	model.addAttribute("objects", orepo.findAll());
-	return "nouserview";
-}
 @RequestMapping(value="/objects", method = RequestMethod.GET)
 public @ResponseBody List <Object> objectlistrest(){
 	return (List<Object>) orepo.findAll();

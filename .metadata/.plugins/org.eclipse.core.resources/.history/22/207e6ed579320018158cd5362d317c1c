@@ -40,7 +40,6 @@ private static final Logger log = LoggerFactory.getLogger(TodolistApplication.cl
 			User user2 = new User ("admin", "$2a$04$ASLbEOoFEFPSZY91ESWte.p28OVdQesWREu2xA84jSn9wZFGe49nm", "admin@email.com", "ADMIN");
 			//urepo.save(user1);
 			urepo.save(user2);
-			
 		};
 	}
 }

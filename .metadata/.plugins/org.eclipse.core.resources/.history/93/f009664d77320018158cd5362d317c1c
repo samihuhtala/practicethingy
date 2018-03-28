@@ -19,7 +19,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 @Override
 protected void configure(HttpSecurity http) throws Exception {
 	http
-	.authorizeRequests().antMatchers("/css/**", "/nouserview*", "/*").permitAll()
+	.authorizeRequests().antMatchers("/css/**").permitAll()
 	.and()
 	.authorizeRequests()
 	.antMatchers("/delete/{id}*", "/edit/{id}*").hasAuthority("ADMIN")
@@ -31,7 +31,6 @@ protected void configure(HttpSecurity http) throws Exception {
 	.permitAll()
 	.and()
 	.logout()
-	.logoutSuccessUrl("/nouserview")
 	.permitAll();
 }
 
