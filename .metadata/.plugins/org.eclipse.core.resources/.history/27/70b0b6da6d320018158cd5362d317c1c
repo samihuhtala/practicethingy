@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" th:href="@{css/bootstrap.min.css}"/> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>TodoList</title>
+</head>
+<body>
+<div class="col-md-4">
+<h1>Todo</h1>
+</div>
+<div class="col-md-4">
+<h3 th:inline="text">Welcome to ToDoList</h3>
+</div>
+<div class="col-md-4">
+<form th:action="@{/logout}" method="post">
+<a href ="/login" class="btn btn-success">Login</a>
+</form>
+</div>
+<table class="table table-striped">
+<tr>
+<td>Name</td>
+<td>Status</td>
+<td>Category</td>
+</tr>
+<tr th:each = "Object : ${objects}">
+<td th:text="${Object.name}"></td>
+<td th:text="${Object.status}"></td>
+<td th:text="${Object.Category.name}"></td>
+</tr>
+</table>
+</body>
+</html>

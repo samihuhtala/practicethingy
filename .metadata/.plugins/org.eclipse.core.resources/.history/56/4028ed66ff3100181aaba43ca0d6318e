@@ -1,0 +1,12 @@
+package hh.palvelinohjelmointi.marketplace.domain;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface ProductRepository extends CrudRepository<Product, Long> {
+	List<Product> findByName(String name);
+	Optional<Product> findById (Long id);
+	
+}

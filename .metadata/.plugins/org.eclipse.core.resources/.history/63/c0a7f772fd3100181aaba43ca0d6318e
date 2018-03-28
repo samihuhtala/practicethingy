@@ -1,0 +1,85 @@
+package hh.palvelinohjelmointi.marketplace;
+
+import java.util.List;
+import static org.assertj.core.api.Assertions.assertThat;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import hh.palvelinohjelmointi.marketplace.domain.Category;
+import hh.palvelinohjelmointi.marketplace.domain.CategoryRepository;
+import hh.palvelinohjelmointi.marketplace.domain.Product;
+import hh.palvelinohjelmointi.marketplace.domain.ProductRepository;
+import hh.palvelinohjelmointi.marketplace.domain.User;
+import hh.palvelinohjelmointi.marketplace.domain.UserRepository;
+
+public class MarketplaceRepositoryTest {
+	@Autowired
+	private UserRepository urepo;
+	
+	@Autowired
+	private CategoryRepository crepo;
+	
+	@Autowired
+	private ProductRepository prepo;
+	
+	@Test
+	public void findByNameShouldReturnBook(){
+		List<Product> products = prepo.findByName("Last Odyssey");
+		assertThat(products).hasSize(1);
+	}
+	
+	@Test
+	public void deletebook(){
+		List<Product> products = prepo.findByName("Last Odyssey");
+		prepo.delete(products);
+		assertThat(products).isNotIn(products);
+		
+	}
+	@Test
+	public void createBook() {
+		Product product = new Product("test", 12.25,new Category("test"));
+		prepo.save(product);
+		assertThat(product.getId()).isNotNull();
+	}
+	
+	@Test
+	public void findByNameShouldReturnCategory() {
+		List <Category> categories = crepo.findByName("game");
+		assertThat(categories).hasSize(1);
+	}
+	
+	@Test
+	public void deleteCategory() {
+		List<Category> categories = crepo.findByName("movie");
+		crepo.delete(categories);
+		assertThat(categories).isNotIn(categories);
+	}
+	
+	@Test
+	public void createCategory() {
+		Category category = new Category("fantasy");
+		crepo.save(category);
+		assertThat(category.getName()).isNotEqualTo(category);
+	}
+	
+	@Test
+	public void findByNameShouldReturnUser() {
+		User user = urepo.findByUsername("user1");
+		assertThat(user).isNotNull();
+	}
+	
+	@Test
+	public void deleteUser() {
+		User user = urepo.findByUsername("user1");
+		urepo.delete(user);
+		assertThat(user).isNotIn(user.getUsername());
+	}
+	
+	@Test
+	public void createUser() {
+		User user = new User("user2", "$2a$04$eFmZjG0ZDr2w88SS5pUo3.Cl.wYS0DbUA6CZQcGYGJHPGEdNXI7xy", "user2@email.com", "USER");
+		urepo.save(user);
+		assertThat(user).isNotEqualTo(user.getUsername());
+	}
+}
+

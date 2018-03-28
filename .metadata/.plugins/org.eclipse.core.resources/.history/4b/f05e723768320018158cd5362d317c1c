@@ -1,0 +1,73 @@
+package hh.palvelinohjelmointi.todolist.webcontrol;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import hh.palvelinohjelmointi.todolist.domain.Object;
+import hh.palvelinohjelmointi.todolist.domain.ObjectRepository;
+import hh.palvelinohjelmointi.todolist.domain.CategoryRepository;
+
+@Controller
+public class ProductController {
+
+@Autowired
+private ObjectRepository prepo;
+@Autowired
+private CategoryRepository crepo;
+
+@RequestMapping(value="/login")
+public String login() {
+	return "login";
+}
+
+@RequestMapping(value="/productlist")
+public String marketplace(Model model){
+	model.addAttribute("products", prepo.findAll());
+	return "productlist";
+}
+
+@RequestMapping(value="/products", method = RequestMethod.GET)
+public @ResponseBody List <Object> productlistrest(){
+	return (List<Object>) prepo.findAll();
+}
+@RequestMapping(value="products/{id}", method = RequestMethod.GET)
+public @ResponseBody Optional<Object> findProductRest (@PathVariable("id") Long productid) {
+	return prepo.findById(productid);
+}
+@RequestMapping(value="/add")
+public String addProduct(Model model) {
+	model.addAttribute("product", new Object());
+	model.addAttribute("categories", crepo.findAll());
+	return "addproduct";
+}
+@RequestMapping(value="/save", method=RequestMethod.POST)
+public String save(Object product){
+	prepo.save(product);
+	return "redirect:productlist";
+}
+@PreAuthorize("hasAuthority('ADMIN')")
+@RequestMapping(value="/delete/{id}", method=RequestMethod.GET)
+public String deleteProduct(@PathVariable("id") Long productid, Model model) {
+	prepo.deleteById(productid);
+	return "redirect:/productlist";
+}
+@PreAuthorize("hasAuthority('ADMIN')")
+@RequestMapping(value="/edit/{id}")
+public String editProduct(@PathVariable("id") Long productid, Model model){
+	model.addAttribute("product", prepo.findById(productid));
+	model.addAttribute("categories", crepo.findAll());
+	return "editproduct";
+}
+}
+
+
+

@@ -1,0 +1,15 @@
+package hh.palvelinohjelmointi.todolist.domain;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface ProductRepository extends CrudRepository<Object, Long> {
+	List<Object> findByName(String name);
+	Optional<Object> findById (Long id);
+	void deleteById(List<Object> products);
+	
+	
+	
+}
